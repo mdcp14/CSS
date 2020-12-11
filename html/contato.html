@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Gama Cademy</title>
+
+    <link rel="stylesheet" href="../css/estilos.css">
+
+</head>
+
+<body>
+
+    <table border="0" widght="100%">
+        <tr>
+            <td>
+                <align="center" class="menu"><a href="..\imagem\logo.png"><img src="..\imagem\logo.png">
+            </td>
+            <td>QUEM SOMOS</td>
+            <td>CURSOS ONLINE</td>
+            <td>GAMA EXPERIENCE</td>
+            <td>PARA EMPRESAS</td>
+            <td>CONTEUDO</td>
+            <td>CONTATOS</td>
+
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <form id="formulario_contato" method="POST">
+        <fieldset>
+            
+
+            <legend><b>Formulario de Acesso para os nossos Cursos</b></legend><br>
+
+            <label>Nome:</label><input type="text" name="nome" class="campo_nome" required><br><br>
+            <label>Email:</label><input type="email" name="email" class="campo_email" required><br><br>
+            <label>Senha:</label><input type="password" name="senha" class="campo_senha" requeired><br><br>
+            <!--Escolha tipo Radio, seleconar 1 como obrigatorio-->
+            <label>Genero:</label>
+            <input type="radio" name="r_opcao" value="Feminino" /> <span>Feminino</span>
+            <input type="radio" name="r_opcao" value="Feminino" /> <span>Masculino</span>
+            <input type="radio" name="r_opcao" value="Feminino" /> <span>Não Informado</span><br><br>
+
+            <!--Campo para incluir calendário-->
+            <label>Data que deseja fazer o curso:</label><input type="date" name="data"><br><br>
+
+            <!--Campo de checkbox, selecione as opções-->
+            <label>Informe o periodo que deseja fazer o curso:</label>
+            <input type="checkbox" name="c_opcao" value="manhã" /> <span>Manhã</span>
+            <input type="checkbox" name="c_opcao" value="tarde" /> <span>Tarde</span>
+            <input type="checkbox" name="c_opcao" value="noite" /> <span>Noite</span><br><br>
+
+            <!--Caixa de selecao, dropbox ou dropdown list-->
+            <label>Escolha o seu curso desejado:</label>
+            <select>
+                <option value=""></option>
+                <option value="XML">XML</option>
+                <option value="HTML5">HTML5</option>
+                <option value="CSS">CSS</option>
+                <option value="JS">JS</option>
+            </select><br><br>
+
+            <!--TextArea, caixa de mensagem -->
+            <label>Mensagem</label><br>
+            <textarea cols="40" rows="4" name="mensagem" placeholder="Pode digitar até 300 caracteres"
+                maxlength="300"></textarea><br/><br/>
+
+            <!--Campo file - upload-->>
+            <label>Anexar um comprovante de residência:</label>
+            <input type="file" name="arquivo"><br><br>
+
+
+            <!--Botão enviar-->>
+            <input type="submit" values="Enviar">
+
+        </fieldset>
+
+    </form>
+
+
+
+
+</body>
+
+</html>

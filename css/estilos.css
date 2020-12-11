@@ -1,0 +1,95 @@
+
+        p {
+            color: red;
+            font-family: verdana;
+            font-size: 15px;
+        }
+
+        body {
+            background-color: rgb(102, 127, 173);
+        }
+
+        .menu {
+            color: rgb(38, 0, 255);
+            font-size: 14px;
+            font-weight: bold;
+            font-family: verdana;
+        }
+
+        .lista {
+            color: rgba(255, 145, 0, 0.658);
+            font-size: 14px;
+            font-weight: bold;
+            font-family: verdana;
+        }
+        .titulo{
+            color: grey;
+            font-size: 14px;
+            font-weight: bold;
+            font-family: verdana;
+
+        }
+        label{
+            color: rgba(0, 68, 255, 0.788);
+            font-size: 14px;
+            font-weight: bold;
+            font-family: verdana; 
+        }
+
+        span{
+            color: rgba(0, 68, 255, 0.788);
+            font-size: 14px;
+            font-weight: bold;
+            font-family: verdana; 
+        }
+
+        #formulario_contato{
+        background-color: rgb(180, 230, 227)
+
+        }
+
+        .campo_nome{
+            position: absolute;
+            left:80px;
+            width: 210px
+            color= blue;
+        }
+
+        .campo_email{
+            position: absolute;
+            left:90px;
+            width: 250px
+            color= red;
+        }
+
+        .campo_senha{
+            position: absolute;
+            left:100px;
+            width: 300px;
+        }
+
+        .container{
+            border:3px solid brown;
+            width: 500px
+            
+        }
+
+        .div1{
+            background-color: yellow;
+
+        }
+
+        .div2{
+            background-color: green;
+
+        }
+
+        .div3{
+            background-color: rgb(46, 46, 238);
+
+        }
+
+        .div4{
+            background-color: rgb(211, 44, 44);
+
+        }
